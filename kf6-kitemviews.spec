@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	6.25
+%define		kdeframever	6.26
 %define		qtver		5.15.2
 %define		kfname		kitemviews
 
 Summary:	Set of item views extending the Qt model-view framework
 Name:		kf6-%{kfname}
-Version:	6.25.0
-Release:	2
+Version:	6.26.0
+Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	e6b0cc2bea4ae574ca5efffbb9a0492e
+# Source0-md5:	3edcd8427056b50bc6953b91f8019a02
 URL:		https://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Test-devel >= %{qtver}
