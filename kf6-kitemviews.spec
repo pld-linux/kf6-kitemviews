@@ -37,6 +37,11 @@ KItemViews includes a set of views, which can be used with item
 models. It includes views for categorizing lists and to add search
 filters to flat and hierarchical lists.
 
+%description -l pl.UTF-8
+KItemViews zawiera zestaw widoków, które mogą być używane z modelami
+elementów. Zawiera widoki dla grupujących list, i żeby filtry szukania
+do płaskich i hierarchicznych list.
+
 %package devel
 Summary:	Header files for %{kfname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
